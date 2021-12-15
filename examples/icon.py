@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 from __future__ import print_function
 
+import gi
+gi.require_version('Gtk', '3.0')
 import notify2
 from gi.repository import Gtk
 import sys
